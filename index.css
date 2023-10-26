@@ -1,0 +1,95 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+*{
+	font-family: 'Poppins', sans-serif;
+}
+
+body {
+	background-image: url(https://images8.alphacoders.com/102/1028032.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.headers{
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 3rem;
+}
+
+#navbar{
+	background-color: teal;
+}
+
+#navbar a{
+	color: white;
+}
+
+#landing{
+	height: 100vh;
+	background-image: url(https://scontent.fcrk2-2.fna.fbcdn.net/v/t39.30808-6/279277690_5411601325524714_7085292676196848141_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHzdYis5wvKgRVdL3c93598huu-wFxP7ZuG677AXE_tm8lsFYchymqh-nuw4d-Fed614G9f7ql5MOV6TH6dqz5B&_nc_ohc=bVFUuvpojUoAX9vt8vG&_nc_ht=scontent.fcrk2-2.fna&oh=00_AfCbjEtFA0WVDdyQO2DkOAx-r6hORcpUj58N18Hd2CmtQw&oe=653D1254);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+}
+
+@media (min-width: 280px) {
+	#landing{
+		background-position: center right;
+	}
+	.tool-item{
+		flex: 0 0 auto;
+    	width: 100%;
+	}
+
+	#tools-head{
+		font-size: 2rem;
+	}
+}
+
+
+#sect-projects{
+/*	-webkit-text-stroke: 1px black;*/
+}
+
+
+
+#projects{
+	width: 80vw;
+	background-color: rgba(128, 128, 128, .8);
+
+
+}
+
+#sect-tools{
+	background-color: rgba(128, 128, 128, .8);
+	width: 60vw;
+	color: white;
+}
+
+#contact-info{
+	min-width: 50vw;
+}
+
+#sect-contact{
+	background-color: teal;
+	width: 80vw;
+	color: white;
+}
+
+
+#gmap {
+	height: 80vh;
+	width: 100%;
+}
+
+@media (min-width: 280px) {
+	#gmap{
+		height: 40vh !important;
+	}
+}
