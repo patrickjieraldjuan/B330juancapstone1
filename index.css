@@ -22,7 +22,8 @@ body {
 }
 
 #navbar{
-	background-color: teal;
+	background-color: transparent;
+	font-size: 2rem;
 }
 
 #navbar a{
