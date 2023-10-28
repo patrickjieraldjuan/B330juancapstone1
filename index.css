@@ -36,7 +36,16 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
+}
 
+
+#landing h1{
+	font-size: 5rem;
+	font-family: 'Concert One';
+}
+
+#landing h3{
+	font-family: 'Concert One';
 }
 
 @media (min-width: 280px) {
