@@ -103,3 +103,7 @@ body {
 		height: 40vh !important;
 	}
 }
+
+#sect-projects, #contact-info h2 {
+	font-size: 5rem;
+}
