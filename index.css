@@ -35,7 +35,7 @@ body {
 	background: linear-gradient(
 		rgba(255, 255, 255, 0.60),
 		rgba(0, 0, 0, 1)
-	), url(https://cu-media.s3.amazonaws.com/images/desk-comp.jpg);
+	), url(./images/cover-image2.avif);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -52,19 +52,16 @@ body {
 	font-family: 'Concert One';
 }
 
-@media (min-width: 280px) {
-/*	#landing{
+/*@media (min-width: 280px) {
+	#landing{
 		background-position: center right;
-	}*/
+	}
 	.tool-item{
 		flex: 0 0 auto;
     	width: 100%;
 	}
 
-	#tools-head{
-		font-size: 2rem;
-	}
-}
+}*/
 
 
 #sect-projects{
@@ -80,10 +77,14 @@ body {
 
 }
 
-#sect-tools{
-	background-color: rgba(128, 128, 128, .8);
+#sect-tools, #mobile-sect-tools{
+/*	background-color: rgba(128, 128, 128, .8);*/
 	width: 60vw;
 	color: white;
+}
+
+#sect-tools i, #mobile-sect-tools i{
+	font-size: 60px;
 }
 
 #contact-info{
@@ -119,7 +120,7 @@ footer{
 	padding-top: 1rem;
 }
 
-#sect-tools, #sect-contact, #projects {
+#sect-contact, #projects {
 	box-shadow: 0px 0px 20px 2px;
 }
 
@@ -137,7 +138,7 @@ footer{
 }
 
 #navbar a{
-	text-shadow: 0px 0px 20px teal;
+	text-shadow: 0px 0px 20px black;
 }
 
 .carousel .carousel-indicators button {
