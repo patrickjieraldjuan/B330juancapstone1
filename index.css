@@ -44,7 +44,26 @@ body {
 	background-attachment: fixed;
 }
 
+@media (min-width: 576px) {
+	#landing img{
+		height: 10em;
+		width: 10em;
+	}
+}
 
+@media (min-width: 768px) {
+	#landing img{
+		height: 30em;
+		width: 30em;
+	}
+}
+
+@media (min-width: 992px) {
+	#landing img{
+		height: 30em;
+		width: 30em;
+	}
+}
 #landing h1{
 	font-size: 5rem;
 	font-family: 'Concert One';
