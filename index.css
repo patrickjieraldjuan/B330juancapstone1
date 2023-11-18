@@ -178,3 +178,21 @@ footer{
    border-radius: 100%;
  }
 
+p:hover{
+	transform: scale(1.1);
+	color: yellow;
+}
+
+p{
+	transition: transform 2s;
+}
+
+i:hover{
+	transform: scale(2.0);
+	color: yellow;
+	background-color: teal;
+}
+
+i{
+	transition: transform .5s;
+}
