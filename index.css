@@ -48,6 +48,19 @@ body {
 	#landing {
 		height: auto;
 	}
+
+	#landing img{
+		margin-top: 5rem;
+	}
+
+	#landing h1{
+		font-size: 2rem !important;
+		margin-top: 1rem;
+	}
+
+	#landing h3{
+		font-size: 1rem !important;
+	}
 }
 
 #landing img{
@@ -77,7 +90,7 @@ body {
 }*/
 
 #landing h1{
-	font-size: 5rem;
+	font-size: 4rem;
 	font-family: 'Concert One';
 }
 
