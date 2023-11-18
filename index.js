@@ -12,3 +12,13 @@
     window.addEventListener('load', toggleBacktotop)
     onscroll(document, toggleBacktotop)
   }*/
+
+function navSelect(item) {
+   item.style.color = "teal";
+   item.style.textShadow = "0px 0px 20px white";
+ } 
+
+ function navDeselect(item) {
+   item.style.textShadow = "0px 0px 20px black";
+   item.style.color = "White";
+ } 
