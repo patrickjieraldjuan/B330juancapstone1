@@ -44,26 +44,38 @@ body {
 	background-attachment: fixed;
 }
 
-@media (min-width: 576px) {
+@media (max-width: 480px) {
+	#landing {
+		height: auto;
+	}
+}
+
+#landing img{
+	max-height: 100%;
+	max-width: 100%;
+}
+
+/*@media (min-width: 576px) {
 	#landing img{
-		height: 10em;
-		width: 10em;
+		max-height: 100%;
+		max-width: 100%;
 	}
 }
 
 @media (min-width: 768px) {
 	#landing img{
-		height: 30em;
-		width: 30em;
+		max-height: 100%;
+		max-width: 100%;
 	}
 }
 
 @media (min-width: 992px) {
 	#landing img{
-		height: 30em;
-		width: 30em;
+		max-height: 100%;
+		max-width: 100%;
 	}
-}
+}*/
+
 #landing h1{
 	font-size: 5rem;
 	font-family: 'Concert One';
@@ -73,28 +85,14 @@ body {
 	font-family: 'Concert One';
 }
 
-/*@media (min-width: 280px) {
-	#landing{
-		background-position: center right;
-	}
-	.tool-item{
-		flex: 0 0 auto;
-    	width: 100%;
-	}
-
-}*/
-
-
-#sect-projects{
-/*	-webkit-text-stroke: 1px black;*/
+#landing p{
+	text-align: justify;
+	font-style: italic;
 }
-
-
 
 #projects{
 	width: 80vw;
 	background-color: rgba(128, 128, 128, .8);
-
 
 }
 
