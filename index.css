@@ -168,8 +168,8 @@ footer{
 	top: 90vh;
 }
 
-#navbar a{
-	text-shadow: 0px 0px 20px black;
+#navbar a, #navbar span{
+	text-shadow: 0px 0px 20px white;
 }
 
 .carousel .carousel-indicators button {
@@ -223,3 +223,51 @@ div.highlightTextIn a:before
 {
     transform: scale(1.2);
 } 
+
+/*navbar animation start*/
+/*
+ul.navbar-nav {
+    display: inline-block;
+    list-style-type: none;
+}*/
+li.nav-item {
+    height: 85px;
+    width: 85px;
+    position: relative;
+}
+li.nav-item .front,
+a.bot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 86px;
+    width: 100%;
+    padding: 30px;
+    position: absolute;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all .5s ease-out;
+    cursor: pointer;
+}
+li.nav-item .front {
+    background-color: transparent;
+    color: teal;
+    transform-origin: 0 0;
+}
+a.bot {
+    background-color: teal;
+    color: transparent;
+    transform-origin: 0 0 85px;
+    transform: rotateX(90deg);
+}
+li.nav-item:hover a.bot {
+    transform: rotateX(0deg);
+}
+li.nav-item:hover .front {
+    transform: rotateX(90deg);
+}
+
+.nav-link {
+	font-size: 1rem !important;
+}
+/*navbar animation end*/
