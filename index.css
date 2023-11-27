@@ -187,13 +187,12 @@ p{
 	transition: transform 2s;
 }
 
-i:hover{
+i.fab:hover{
 	transform: scale(2.0);
 	color: yellow;
-	background-color: teal;
 }
 
-i{
+i.fab{
 	transition: transform .5s;
 }
 
