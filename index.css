@@ -187,12 +187,12 @@ p{
 	transition: transform 2s;
 }
 
-i.fab:hover{
+i.fab:hover, i.fas:hover{
 	transform: scale(2.0);
 	color: yellow;
 }
 
-i.fab{
+i.fab, i.fas:hover{
 	transition: transform .5s;
 }
 
@@ -247,6 +247,7 @@ a.bot {
     text-transform: uppercase;
     transition: all .5s ease-out;
     cursor: pointer;
+    border-radius: 50px;
 }
 li.nav-item .front {
     background-color: transparent;
