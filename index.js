@@ -24,3 +24,24 @@
    item.style.textShadow = "0px 0px 20px black";
    item.style.color = "White";
  } */
+
+
+const navLink = document.querySelectorAll('.nav-link');
+
+  for (i = 0; i < navLink.length; i++) {
+    navLink[i].addEventListener('click', () => {
+      document.querySelector('#navbarTogglerDemo02').style.height = "0vh !important";
+    })
+  }
+
+
+
+// Mouse Pointer
+/*
+document.addEventListener("mousemove", myFunction);
+
+function myFunction() {
+  document.getElementById("demo").innerHTML = Math.random();
+}
+*/
+
