@@ -132,9 +132,13 @@ body {
 	font-family: 'Concert One';
 }
 
-#landing p{
+#landing p.me{
 	text-align: justify;
 	font-style: italic;
+}
+
+#qoute{
+	font-weight: bold;
 }
 
 #projects{
