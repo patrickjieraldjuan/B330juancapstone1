@@ -173,6 +173,10 @@ body {
 	width: 100%;
 }
 
+input {
+	width: 75% !important;
+}
+
 @media (min-width: 280px) {
 	#gmap{
 		height: 40vh !important;
